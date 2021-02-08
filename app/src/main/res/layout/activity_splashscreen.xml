@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/kora"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".activities.splashscreen">
+
+
+   <!-- <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo1"
+        android:layout_width="match_parent"
+        android:layout_height="532dp"
+        android:src="@drawable/kora"
+        app:civ_border_color="#ff000000"
+        app:civ_border_width="2dp" />-->
+
+   <!-- <TextView
+        android:id="@+id/textViewSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/logo1"
+        android:gravity="center_horizontal"
+        android:padding="32sp"
+        android:text="@string/welcome_to_korawan_india_ems"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"/>-->
+</LinearLayout>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activities.AddEmployee">
+
+
+        <LinearLayout
+            android:id="@+id/l_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/upload_image"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittextdesign"
+                    android:drawableLeft="@drawable/empl_id"
+                    android:hint="@string/nic_employee_id2"
+                    android:inputType="number"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittextdesign"
+                    android:drawableLeft="@drawable/ic_baseline_calendar_view_week_24"
+                    android:hint="@string/joining_date"
+                    android:inputType="number"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextdesign"
+            android:drawableLeft="@drawable/name"
+            android:hint="@string/full_name2"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextDesignation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/designation"
+            android:background="@drawable/edittextdesign"
+            android:hint="@string/designation"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextMobileNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextdesign"
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
+            android:hint="@string/mobile_no2"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextBasicPay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+            android:background="@drawable/edittextdesign"
+            android:hint="@string/basic_pay_day"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+            android:background="@drawable/edittextdesign"
+            android:hint="@string/dob"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextdesign"
+            android:drawableLeft="@drawable/ic_baseline_verified_user_24"
+            android:hint="@string/user"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextdesign"
+            android:hint="@string/password"
+            android:drawableLeft="@drawable/ic_baseline_security_24"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextdesign"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:hint="@string/email2"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextCL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/leave"
+            android:background="@drawable/edittextdesign"
+            android:hint="CL"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextEL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextdesign"
+            android:hint="EL"
+            android:drawableLeft="@drawable/ic_baseline_supervised_user_circle_24"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnAdd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttondesign"
+                android:text="Add"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnClear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttondesign"
+                android:text="Clear"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

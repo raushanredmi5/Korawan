@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.raushan.korawanindia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KorawanIndia">
+        <activity android:name=".Fragments.AdminDashBoardFragment"></activity>
+        <activity
+            android:name=".Navigation.NavDraw"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/Theme.KorawanIndia.NoActionBar"></activity>
+        <activity android:name=".activities.AppSetting" />
+        <activity android:name=".activities.BackupOption" />
+        <activity android:name=".activities.CloudBackup" />
+        <activity android:name=".Fragments.GenerateReportFragment" />
+        <activity android:name=".Fragments.MarkAttendanceFragment" />
+        <activity android:name=".Fragments.EmployeeListFragment" />
+        <activity android:name=".Fragments.AddEmployeeFragment" />
+        <activity android:name=".Fragments.AdminDashFragmentView" />
+        <activity android:name=".activities.AllGeneratedReport" />
+        <activity android:name=".activities.Summaryreport" />
+        <activity android:name=".activities.SalarySlips" />
+        <activity android:name=".activities.MarkAttendence" />
+        <activity android:name=".activities.EmployeeList" />
+        <activity android:name=".activities.AddEmployee" />
+        <activity android:name=".activities.AdminDashBoard"></activity>
+        <activity android:name=".activities.NewPasswordGeneration" />
+        <activity android:name=".activities.VerifyOtp" />
+        <activity android:name=".activities.SendOtpScreen" />
+        <activity android:name=".activities.LoginScreen" />
+        <activity
+            android:name=".activities.splashscreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MainActivity" />
+    </application>
+
+</manifest>

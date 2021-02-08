@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:background="@color/WhiteSmoke"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:padding="24dp"
+    tools:context=".activities.LoginScreen">
+
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:src="@drawable/korawanindialogo" />
+
+
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome_to_korawan_india_ems"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/edtTextUserName"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextdesign"
+        android:hint="@string/username" />
+
+    <EditText
+        android:id="@+id/edtTextPassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:textStyle="italic"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/edittextdesign"
+        android:hint="password" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttondesign" />
+
+    <TextView
+        android:id="@+id/textViewLoginHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/login_help"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end"
+        android:text="developed by Korawan India"
+        android:textSize="20sp"
+        android:textColor="@color/amber_a700"
+        android:textStyle="bold|italic"
+        />
+
+
+</LinearLayout>
